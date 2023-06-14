@@ -14,6 +14,8 @@ In this project, we compare the performance of some second-order methods, includ
 * ```requirments.txt```: list of packages should be installed.
 
 
+## Wandb
+You can also access to all plots in the wandb page of project https://wandb.ai/amirm77/Second_Order_Method/.
 
 
 ## Install
