@@ -1,17 +1,17 @@
 # A Study of Second-Order Optimization Methods for Image Classification
-In this project, we compare the performance of some second-order methods, including Sophia and Adahessian, and the well-known first-order methods, SGD and Adam.
+In this project, we compare the performance of some second-order methods, including Sophia and Adahessian, and the well-known first-order methods, SGD and Adam. We consider the image classification on the benchmark datasets (Cifar10, Cifar100, Mnist).
 
 
 
-##contents
-* models: includes a smallCNN for mnist dataset, and a custom_classifier based on resnet18.
-* run.sh: script for reproducing the results.
-* optimizers: includes Sophia, adahessian optimizers based on their the main source.
-* log: results of different hyperparameters and settings.
-* datasets.py: custom datasets for Mnist, Cifar10, and Cifar100. 
-* utils.py: includes some functions for saving and loading the models.
-* train_classifiers.py: the main file for training the models. Take note to next section for how to use it.
-* requirments.txt: list of packages, should be installed.
+## contents
+* ```models```: includes a smallCNN for the Mnist dataset and a custom_classifier based on resnet18.
+* ```run.sh```: script for reproducing the results.
+* ```optimizers```: includes Sophia and Adahessian optimizers based on their main source.
+* ```log```: results of different hyperparameters and settings.
+* ```datasets.py```: custom datasets for Mnist, Cifar10, and Cifar100. 
+* ```utils.py```: includes some functions for saving and loading the models.
+* ```train_classifiers.py```: the main file for training the models. Take note to the next section for how to use it.
+* ```requirments.txt```: list of packages should be installed.
 
 
 
