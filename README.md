@@ -28,7 +28,7 @@ bash run.sh
 Note that you can change the epoch, path, etc., in run.sh.
 Moreover, you can train using the train_classifer.py file with the following command
 ```sh
-python3 train_classifier.py --path log --wandb 1 --lr 0.01 --opt SGD --dataset cifar10
+python3 train_classifier.py --path log --wandb 0 --lr 0.01 --opt SGD --dataset cifar10
 ```
 ### Arguments
 * ```path```: The folder name where logs and models' parameters will be saved.
