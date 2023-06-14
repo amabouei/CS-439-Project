@@ -1,0 +1,7 @@
+wandb==0.15.4
+torch
+torchsummary==1.5.1
+torchtext==0.15.2
+torchvision
+tqdm==4.65.0
+numpy==1.22.4
