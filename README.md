@@ -1,5 +1,5 @@
 # A Study of Second-Order Optimization Methods for Image Classification
-In this project, we compare the performance of some second-order methods, including Sophia and Adahessian, and the well-known first-order methods, SGD and Adam. We consider the image classification on the benchmark datasets (Cifar10, Cifar100, Mnist).
+In this project, we compare the performance of two second-order methods, Sophia and Adahessian, with the well-known first-order methods, SGD and Adam. We consider the image classification task on the benchmark datasets Cifar-10, Cifar-100, and Mnist.
 
 
 
@@ -43,4 +43,4 @@ python3 train_classifier.py --path log --wandb 1 --lr 0.01 --opt SGD --dataset c
 * ```epochs```: Number of epochs (default value is 50).
 * ```batch-size```: Batch size for train/valid/test sets (default value is 128).
 ## Contact
-Please get in touch with amir.abouei@epfl.ch or sina.akbari@epfl.ch if you have any questions about codes.
+Please get in touch with amir.abouei@epfl.ch or sina.akbari@epfl.ch in case you have questions regarding the code.
