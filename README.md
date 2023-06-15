@@ -23,7 +23,7 @@ We run all of our codes on Python (3.10.12). Make sure you have at least this ve
 ```sh
 pip install -r requirements.txt
 ```
-Then to reproduce the results, run the following script. 
+Then to reproduce the results, run the following script
 ```sh
 bash run.sh
 ```
