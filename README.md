@@ -14,8 +14,6 @@ In this project, we compare the performance of some second-order methods, includ
 * ```requirments.txt```: list of packages should be installed.
 
 
-## Wandb
-You can also access to all plots in the wandb page of project https://wandb.ai/amirm77/Second_Order_Method/.
 
 
 ## Install
@@ -23,14 +21,14 @@ We run all of our codes on Python (3.10.12). Make sure you have at least this ve
 ```sh
 pip install -r requirements.txt
 ```
-Then to reproduce the results, run the following script
+Then to reproduce the results, run the following script. 
 ```sh
 bash run.sh
 ```
 Note that you can change the epoch, path, etc., in run.sh.
 Moreover, you can train using the train_classifer.py file with the following command
 ```sh
-python3 train_classifier.py --path log --wandb 0 --lr 0.01 --opt SGD --dataset cifar10
+python3 train_classifier.py --path log --wandb 1 --lr 0.01 --opt SGD --dataset cifar10
 ```
 ### Arguments
 * ```path```: The folder name where logs and models' parameters will be saved.
